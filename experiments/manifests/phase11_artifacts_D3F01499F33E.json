@@ -1,0 +1,93 @@
+{
+  "phase": 11,
+  "test_data_used": false,
+  "source_tree_sha256": "44308AC41BB19A418D5B677E6F857904194C0CC7728CE60D1192E3FBF03A91F8",
+  "feature_version": "model_view_v1",
+  "artifacts": [
+    {
+      "path": "models/phase8_baselines/fold_2022/lightgbm_oof.parquet",
+      "bytes": 7714833,
+      "sha256": "3CF93FBC22DE676F371D3B0044C0812865B244CC373071F075D51100B8308DDF"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2022/ridge_oof.parquet",
+      "bytes": 8668231,
+      "sha256": "029EA65F91B02689252DD58CA289CFCCEE938D974E49354D9D155780710EA1EC"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/lightgbm_oof.parquet",
+      "bytes": 8016730,
+      "sha256": "A8B9E5AE6606766BA8553543A5325401E5D0706AA941B6634D6A563564B9CC27"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/ridge_oof.parquet",
+      "bytes": 8947605,
+      "sha256": "5BC61F5B748D223A0883DF0F50A44BA54A747FAABA9EF9258706E12A5A0C5635"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/lightgbm_oof.parquet",
+      "bytes": 7525746,
+      "sha256": "323E029EBC7BC00BD86A42C7A3B93387DBEFAD7899C75F7F5F4AC4BE113F19B4"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/ridge_oof.parquet",
+      "bytes": 8645546,
+      "sha256": "9EF1B096ABF7BE72515FAA5AB9D735550A16AAA760D2DA6CB1E2A43D6CB4A7EA"
+    },
+    {
+      "path": "reports/tables/phase10_turnover_audit.json",
+      "bytes": 5887,
+      "sha256": "15CC8A9FAB1DF9992931381B61CFD4E7D448E14611FE89088BA2536940864093"
+    },
+    {
+      "path": "reports/tables/phase6_cv_audit.json",
+      "bytes": 3953,
+      "sha256": "9B399EA1ACBAC5D0EF6F8B3FA7A4BB1A267D32DBF2F75241D3C72590EA22551F"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/manifest.json",
+      "bytes": 8087,
+      "sha256": "CF63C23452EABD75A0D350C573267F04BC10EDE94901F07BB415A9C0BAE8B685"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "experiments/configs/phase11_ensemble_4FF41A49D4D5.yaml",
+      "bytes": 8304,
+      "sha256": "4FF41A49D4D5BD1993CD621DCDC015902FADA8C42CE30D65F1A0518EE652C9AE"
+    },
+    {
+      "path": "models/phase11_ensemble/manifest.json",
+      "bytes": 5387,
+      "sha256": "0272FA069CD0B42AF6E7AB4A18DBFA0C41899DD5D3F629940256AD7AC8543A97"
+    },
+    {
+      "path": "reports/tables/phase11_ensemble_grid.parquet",
+      "bytes": 15819,
+      "sha256": "ED519A320E51965E8D90206EC3FCC0DA47A13A355CE015A2FFCEEF4E07A7BEC9"
+    },
+    {
+      "path": "reports/tables/phase11_ensemble_grid.csv",
+      "bytes": 18955,
+      "sha256": "DE2555D06D981386585C0C9B7742C3F1D3D87F876049A6A31494F99B2B27F41F"
+    },
+    {
+      "path": "models/phase11_ensemble/fold_2022/ensemble_oof.parquet",
+      "bytes": 5872498,
+      "sha256": "D7DD38E882A4D7C9C892C7DFF57EA1E2290AA60117DDE5EBBB56A23101873861"
+    },
+    {
+      "path": "models/phase11_ensemble/fold_2023/ensemble_oof.parquet",
+      "bytes": 6003704,
+      "sha256": "A8BB784C10F403E982728D0C5202B4ECF985C8A041BAE027BA046C40AF3BDFB5"
+    },
+    {
+      "path": "models/phase11_ensemble/fold_2024/ensemble_oof.parquet",
+      "bytes": 5587356,
+      "sha256": "AC9E2E24D614E77CAB42464A9CF1118500878ECB7A6292559A9EE5EC2C43D20D"
+    }
+  ]
+}

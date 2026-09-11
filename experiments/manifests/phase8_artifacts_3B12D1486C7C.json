@@ -1,0 +1,173 @@
+{
+  "phase": 8,
+  "test_data_used": false,
+  "source_tree_sha256": "FDC0473C9D9EFD3F93B77EBF27768082E14BA0ED0AE893DCB562981E8051F41C",
+  "feature_version": "model_view_v1",
+  "artifacts": [
+    {
+      "path": "data/raw/训练集.csv",
+      "bytes": 946832276,
+      "sha256": "E9D23E87F7E1F9439F28F7DD951D129EA49EAACDA5AD650DA8576A830A6DEAC9"
+    },
+    {
+      "path": "reports/tables/phase8_baseline_audit.json",
+      "bytes": 24546,
+      "sha256": "BDB753F4BE3D5AD7F56D7641A5209E1860794ED403010C5FE4FFF371EB66CA0B"
+    },
+    {
+      "path": "reports/tables/phase6_cv_audit.json",
+      "bytes": 3953,
+      "sha256": "9B399EA1ACBAC5D0EF6F8B3FA7A4BB1A267D32DBF2F75241D3C72590EA22551F"
+    },
+    {
+      "path": "reports/tables/phase6_cv_calendar.parquet",
+      "bytes": 11277,
+      "sha256": "DBDEDAAF81CC526D1B9E17049AB4F6D73472F23F8DB8DD89AC269FFFCB8D1B71"
+    },
+    {
+      "path": "reports/tables/phase7_evaluator_parity.json",
+      "bytes": 4561,
+      "sha256": "2930C642F805332DB3D6DBB69E73522EAA4CB2CD44EBC782AFD24A6EF3575535"
+    },
+    {
+      "path": "reports/tables/phase8_framework_review.json",
+      "bytes": 733,
+      "sha256": "135B6D7A5F721397C2462C3DF1AECA5CDD0E0887FC8427094204EC58BBE2D4F2"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/manifest.json",
+      "bytes": 8087,
+      "sha256": "CF63C23452EABD75A0D350C573267F04BC10EDE94901F07BB415A9C0BAE8B685"
+    },
+    {
+      "path": "models/phase8_baselines/manifest.json",
+      "bytes": 24546,
+      "sha256": "BDB753F4BE3D5AD7F56D7641A5209E1860794ED403010C5FE4FFF371EB66CA0B"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 499,
+      "sha256": "C0F033464006834CAB0216A731B579ED6E98706C1D5DE9DA8C3ECC4BF243DDF4"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "experiments/configs/phase8_baselines_3A5057772EB5.yaml",
+      "bytes": 6791,
+      "sha256": "3A5057772EB547038E4C54198A251F343F1E5F3BFE882110F3A8A3C0C5E19795"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2018/data.parquet",
+      "bytes": 337859044,
+      "sha256": "2853B2E64D11D28B38494C6FD6C4FA4F2D9AD9D5C9E367C0EA29472615C50A43"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2019/data.parquet",
+      "bytes": 394939928,
+      "sha256": "DC815647EB69BFEA94CCAA7AD5DA546D7E108FD9AD006B8E980E3BF328ABF5F6"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2020/data.parquet",
+      "bytes": 408612745,
+      "sha256": "F6A219F94A5D14E8D6D2F5C846B5743119F404FD6DF68386D826D889E9A18034"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2021/data.parquet",
+      "bytes": 444505032,
+      "sha256": "94BBA530A44CDDB57034A270DD5EC30099FC32C21A5EB0183E8DB0F02737FE46"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2022/data.parquet",
+      "bytes": 464752529,
+      "sha256": "A813FFC7144F58939928E163A94EE6107A9C7E76D7B769C4EE50287DDB47C4F0"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2023/data.parquet",
+      "bytes": 466473574,
+      "sha256": "9EC904BC3F6424B71FB2E3CC718AA187694873B7FC2604777233F70127DB05F9"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2024/data.parquet",
+      "bytes": 469437258,
+      "sha256": "5BE1C411D6CB239454AD5708C1235AE68CC026886AA6C884EDBD150CBBDF71E1"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2022/lightgbm_model.txt",
+      "bytes": 335883,
+      "sha256": "E902F53F16B187673A9F865813A2B18C4BD96AA63B3BD6E759ABC0A82DCDA2FE"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2022/lightgbm_oof.parquet",
+      "bytes": 7714833,
+      "sha256": "3CF93FBC22DE676F371D3B0044C0812865B244CC373071F075D51100B8308DDF"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2022/ridge_model.npz",
+      "bytes": 5642,
+      "sha256": "63A313544C6B31E59E11A1B84EB7FF222C6DCCA5C1FABDFF3CEE8B38B4216D22"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2022/ridge_oof.parquet",
+      "bytes": 8668231,
+      "sha256": "029EA65F91B02689252DD58CA289CFCCEE938D974E49354D9D155780710EA1EC"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2022/simple_factor_oof.parquet",
+      "bytes": 8045583,
+      "sha256": "2E8008F64B5179F9C7231772B60FEF3E4BE43E64BA3037BFCED039E54AA1581B"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/lightgbm_model.txt",
+      "bytes": 336909,
+      "sha256": "6DE7053DAEA6B5B8F5216C6BB069CEE1A446ACD4EE9C19412AE9B47E733EF9E9"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/lightgbm_oof.parquet",
+      "bytes": 8016730,
+      "sha256": "A8B9E5AE6606766BA8553543A5325401E5D0706AA941B6634D6A563564B9CC27"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/ridge_model.npz",
+      "bytes": 5642,
+      "sha256": "5C05B4FA521153D65BA9C6E3CC51824DEA6F4CF0644F8962B48C00DB1B746D0F"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/ridge_oof.parquet",
+      "bytes": 8947605,
+      "sha256": "5BC61F5B748D223A0883DF0F50A44BA54A747FAABA9EF9258706E12A5A0C5635"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/simple_factor_oof.parquet",
+      "bytes": 7930017,
+      "sha256": "D5378CB6806CCBF3B7D14B654D908777DA23031F2F730A8C627A3F054FAA1831"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/lightgbm_model.txt",
+      "bytes": 336737,
+      "sha256": "29D1A82C0E3AF4A7419B86D0F1FBC693E31A70EE5CB9972ABE06D2531EFFFCD2"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/lightgbm_oof.parquet",
+      "bytes": 7525746,
+      "sha256": "323E029EBC7BC00BD86A42C7A3B93387DBEFAD7899C75F7F5F4AC4BE113F19B4"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/ridge_model.npz",
+      "bytes": 5642,
+      "sha256": "7EF96C87BFEA0B6F780BFA4D499982F283BB630B350AF0C5AAC2D2C181D090BB"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/ridge_oof.parquet",
+      "bytes": 8645546,
+      "sha256": "9EF1B096ABF7BE72515FAA5AB9D735550A16AAA760D2DA6CB1E2A43D6CB4A7EA"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/simple_factor_oof.parquet",
+      "bytes": 6873122,
+      "sha256": "15D26C96BBC8826CC34A53ADA1E0BF94B12BB861BA3CDA892FD725D1A1CB24DB"
+    }
+  ]
+}

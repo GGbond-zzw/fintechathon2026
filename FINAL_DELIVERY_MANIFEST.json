@@ -1,0 +1,74 @@
+{
+  "phase": 19,
+  "created_at": "2026-09-11T11:54:59+08:00",
+  "source_tree_sha256": "8486ED2FA3DF935B0724FE6944D308F17309928D05BC338DC0911F083F51DE40",
+  "report_pages": 8,
+  "hidden_test_score_reported": false,
+  "artifacts": [
+    {
+      "path": "experiments/configs/phase19_report_3D3699599D43.yaml",
+      "bytes": 16382,
+      "sha256": "3D3699599D43750FB5DDB8FF65F5DA3DFEF30A63AB3052B59A71A9B09AC353C8"
+    },
+    {
+      "path": "output/pdf/fintechathon2026_task5_report.pdf",
+      "bytes": 582490,
+      "sha256": "730F87BA2AB4E928C85401EF3C39D61D848B97356C8F61E644C66A132C38ECD9"
+    },
+    {
+      "path": "reports/final_report.md",
+      "bytes": 1809,
+      "sha256": "6A3BF6ABEB67DC8A5198DF53157FA4128E6FB1F1808B4CADC02161FFB4B4E377"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 1553,
+      "sha256": "AF0F879ECF4A37F5185D81BBF7FF35A61ADA2E85D105FDC24A3017BE7DB52E24"
+    },
+    {
+      "path": "reports/figures/phase19/label_overview.png",
+      "bytes": 40792,
+      "sha256": "FF9136E2B99C35C9F4D8D2D4C778A6BCE7CBBAB34F9B4403C060DFDF19EAF748"
+    },
+    {
+      "path": "reports/figures/phase19/model_progress.png",
+      "bytes": 47973,
+      "sha256": "A954D5C663DABD330772C66393E6670D6CAAC39203840FD4542D038E6D360C94"
+    },
+    {
+      "path": "reports/figures/phase19/fold_stability.png",
+      "bytes": 66850,
+      "sha256": "1A20C0C5CBAA8FDC56250722505AE3508BE256878753A0AFBFCC3F3438518F5C"
+    },
+    {
+      "path": "reports/figures/phase19/feature_screen.png",
+      "bytes": 39684,
+      "sha256": "4C7C3D3D09DDC2088AC7AA16387E98E43068B51E27452BC9FD597DCA26652F9F"
+    },
+    {
+      "path": "reports/figures/phase19/regime_stability.png",
+      "bytes": 27170,
+      "sha256": "7D282CB6913803911447093F1CBD284669DF6E809C6C5DC6A50CCF15D0185353"
+    },
+    {
+      "path": "submissions/submission_p16_locked_ensemble_v1.csv",
+      "bytes": 47329264,
+      "sha256": "19125DE77D0726A23A5E9E209C03960F53EC1E69D312D0A2DD32A0BA2A274865"
+    },
+    {
+      "path": "reports/tables/phase18_submission_audit.json",
+      "bytes": 2928,
+      "sha256": "3272D70857154A93CC93CBB8ECA84960713F54755ADE6E994684905AD0CB3EA6"
+    },
+    {
+      "path": "reports/tables/phase17_prediction_audit.json",
+      "bytes": 3682,
+      "sha256": "D98D6AD3B3FA780410CF3A4BF76B9DF03722483F642E396CB2227EEFBF8C4F62"
+    },
+    {
+      "path": "experiments/experiment_registry.csv",
+      "bytes": 92938,
+      "sha256": "F76DA6085378BA02076F76C5AD331933B8EFB1AACB45D5F13C5F21C59B3C3CCE"
+    }
+  ]
+}

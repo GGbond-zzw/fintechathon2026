@@ -1,0 +1,123 @@
+{
+  "phase": 12,
+  "test_data_used": false,
+  "source_tree_sha256": "228A0329CC8D8488BB5B03822F617B770174FAC1F9ACA2622AA47D02CC385FDE",
+  "feature_version": "model_view_v1",
+  "artifacts": [
+    {
+      "path": "data/processed/model_view_v1_by_year/manifest.json",
+      "bytes": 8087,
+      "sha256": "CF63C23452EABD75A0D350C573267F04BC10EDE94901F07BB415A9C0BAE8B685"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2018/data.parquet",
+      "bytes": 337859044,
+      "sha256": "2853B2E64D11D28B38494C6FD6C4FA4F2D9AD9D5C9E367C0EA29472615C50A43"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2019/data.parquet",
+      "bytes": 394939928,
+      "sha256": "DC815647EB69BFEA94CCAA7AD5DA546D7E108FD9AD006B8E980E3BF328ABF5F6"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2020/data.parquet",
+      "bytes": 408612745,
+      "sha256": "F6A219F94A5D14E8D6D2F5C846B5743119F404FD6DF68386D826D889E9A18034"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2021/data.parquet",
+      "bytes": 444505032,
+      "sha256": "94BBA530A44CDDB57034A270DD5EC30099FC32C21A5EB0183E8DB0F02737FE46"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2022/data.parquet",
+      "bytes": 464752529,
+      "sha256": "A813FFC7144F58939928E163A94EE6107A9C7E76D7B769C4EE50287DDB47C4F0"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2023/data.parquet",
+      "bytes": 466473574,
+      "sha256": "9EC904BC3F6424B71FB2E3CC718AA187694873B7FC2604777233F70127DB05F9"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/year=2024/data.parquet",
+      "bytes": 469437258,
+      "sha256": "5BE1C411D6CB239454AD5708C1235AE68CC026886AA6C884EDBD150CBBDF71E1"
+    },
+    {
+      "path": "reports/tables/phase6_cv_audit.json",
+      "bytes": 3953,
+      "sha256": "9B399EA1ACBAC5D0EF6F8B3FA7A4BB1A267D32DBF2F75241D3C72590EA22551F"
+    },
+    {
+      "path": "reports/tables/phase10_turnover_audit.json",
+      "bytes": 5887,
+      "sha256": "15CC8A9FAB1DF9992931381B61CFD4E7D448E14611FE89088BA2536940864093"
+    },
+    {
+      "path": "reports/tables/phase11_ensemble_audit.json",
+      "bytes": 6918,
+      "sha256": "229F47B416F09F7EF2D842815F2140DB072716058DF7111389999640AD86C5C1"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "experiments/configs/phase12_lambdarank_96A5BA69FC17.yaml",
+      "bytes": 9580,
+      "sha256": "96A5BA69FC17FD0DEFCC30477F273729A64EB5DC622DBAF220A74329DD57C29D"
+    },
+    {
+      "path": "models/phase12_lambdarank/manifest.json",
+      "bytes": 14032,
+      "sha256": "94B5310C16F0D6D75984B39C0722B8CFF83F97B770A027CD7CD0AE9D91ACC0F3"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2022/lambdarank_model.txt",
+      "bytes": 370689,
+      "sha256": "C2F7D4AED82B2CE21A7EA81601B00EF04AADA4AEB822403DCA340D46CCD789E3"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2022/ranker_raw_oof.parquet",
+      "bytes": 8604252,
+      "sha256": "52BA98A698055BEF16E4086ED23F6F8926FC28A4CF6DBE872E80D5D4952EF716"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2022/ranker_turnover_oof.parquet",
+      "bytes": 5843944,
+      "sha256": "7E48F2C6AAE27BBC1C084F20A4E37E05F2B2A001F1EC9EA5E28056D40D79F328"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2023/lambdarank_model.txt",
+      "bytes": 369896,
+      "sha256": "0FFC82A1A85B220BCBEA636B3FF1556A33EB9B15E3D673EC02E91BD807AF8EE5"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2023/ranker_raw_oof.parquet",
+      "bytes": 8884963,
+      "sha256": "0DE4B3B1089E037C6A506B1E34B648DAC7A85511B2C86E3750D7D0C84EA09EDF"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2023/ranker_turnover_oof.parquet",
+      "bytes": 5990457,
+      "sha256": "58083AB05834FC2D3281A35D0F54076C3AC86879C3BFE6B3BCE8F5879449F3FB"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2024/lambdarank_model.txt",
+      "bytes": 371410,
+      "sha256": "43A4FD04DA8EF33F92B5ED549FD18F171C98954C80ED06EBF78600425809B250"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2024/ranker_raw_oof.parquet",
+      "bytes": 8562925,
+      "sha256": "A2056B5718DCA311B9FD7712345798ED258A5DE5579364E8144E8514EF2209CC"
+    },
+    {
+      "path": "models/phase12_lambdarank/fold_2024/ranker_turnover_oof.parquet",
+      "bytes": 5587356,
+      "sha256": "E3203DFDD1BC3F11C676887525BD80277207C41A7823006541535952CFFECF66"
+    }
+  ]
+}

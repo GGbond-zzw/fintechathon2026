@@ -1,0 +1,88 @@
+{
+  "phase": 13,
+  "test_data_used_for_supervised_fit": false,
+  "source_tree_sha256": "33A42426258C840E5F0A590699A0B392938D37A65C2C7A108546C952EDBE8E66",
+  "feature_version": "advanced_features_v1",
+  "artifacts": [
+    {
+      "path": "data/raw/训练集.csv",
+      "bytes": 946832276,
+      "sha256": "E9D23E87F7E1F9439F28F7DD951D129EA49EAACDA5AD650DA8576A830A6DEAC9"
+    },
+    {
+      "path": "data/raw/测试集_X.csv",
+      "bytes": 168825396,
+      "sha256": "DCEFFBF68BBAB07A254BC6CAA4D8A1E33DE8DE9C15489D936C5D15020DBFA90F"
+    },
+    {
+      "path": "experiments/configs/phase13_advanced_13DD152AA203.yaml",
+      "bytes": 11272,
+      "sha256": "13DD152AA203F10C8FB80BEC760541B468F7B187C37C9D0A6A9B9A994E8C0762"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/manifest.json",
+      "bytes": 7739,
+      "sha256": "C294F0197E4B91765F85B66F0EF74874DAFEA2EC6FB45F69C5F4F2B8C38AF473"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_test_by_year/manifest.json",
+      "bytes": 6801,
+      "sha256": "F8004060716C863B7C4ECD5AF6F757AD76646CA2ADB52B0431B1058F80DB2C4B"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2018/features.parquet",
+      "bytes": 122428571,
+      "sha256": "CEA9D01454171B7DD08C4FE4ED0CB9D0408C77FEFBDD9DD66F9563F9783BC5B8"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2019/features.parquet",
+      "bytes": 146464186,
+      "sha256": "6286F75C5899AD4C93DFF7EEA0122FEF61A9EE5D8F15804D5B804CB074879D0A"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2020/features.parquet",
+      "bytes": 151624303,
+      "sha256": "7D63D50B6EA7D3B3F067833B3357DFE4D84D0F0F2A186DB0F157B0241EA42160"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2021/features.parquet",
+      "bytes": 163205343,
+      "sha256": "324CB303A3D1E7268CBBB88B258246E91EFB643C412093AB8095A916F9033704"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2022/features.parquet",
+      "bytes": 173500673,
+      "sha256": "2E25E6C5BFAF9148931BF02D9FC17A1D81D017112741684E3D3FC2F342716714"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2023/features.parquet",
+      "bytes": 178585381,
+      "sha256": "58D5E5BAFAAF2C5D722C1119A61B226F28C6E04960E35D7D25B3AD6F6748A4B4"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2024/features.parquet",
+      "bytes": 185235529,
+      "sha256": "F4DE2772E9B0B3DB113483CF512A386063101F90135054D182B4994A8317AFE7"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_test_by_year/year=2025/features.parquet",
+      "bytes": 185749307,
+      "sha256": "EEC56D77238E8C5DB8A4F62C72A2E69E5C1FDC4F69D2F85109708DE90D04D0B1"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_test_by_year/year=2026/features.parquet",
+      "bytes": 75757703,
+      "sha256": "D9637202BAE92A03FCED95778EF9BADE8AF3DFB5B6F2F2568F0BCDD0FCBF8080"
+    },
+    {
+      "path": "reports/tables/phase13_advanced_feature_dictionary.csv",
+      "bytes": 3062,
+      "sha256": "77A1161411D3C9E3A6A1F2802ACE14ACED8BBC4F454590285467E4F467F46BDB"
+    },
+    {
+      "path": "reports/tables/phase13_advanced_hand_checks.csv",
+      "bytes": 542,
+      "sha256": "6012F871662465D4B239A23F8BF4C55BB292810906901C9F980263763448223E"
+    }
+  ]
+}

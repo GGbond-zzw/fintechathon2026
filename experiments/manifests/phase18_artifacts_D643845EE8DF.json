@@ -1,0 +1,38 @@
+{
+  "phase": 18,
+  "test_labels_used": false,
+  "hidden_test_metrics_computed": false,
+  "source_tree_sha256": "9D9180501181DC4ADAE2D6BCF2DDDC7C2B1947391FDA45BE3BB4E46AE86F4058",
+  "artifacts": [
+    {
+      "path": "experiments/configs/phase18_submission_25AFD1DC916D.yaml",
+      "bytes": 15845,
+      "sha256": "25AFD1DC916D5D4B8C9197B77992FDD394B11FAD6A99AEE7AB65F47765CDCD55"
+    },
+    {
+      "path": "models/phase17_prediction/test_predictions.parquet",
+      "bytes": 2661277,
+      "sha256": "FAD7277364F2642871337DC3035C9F20988D6FC93881C79DEA46632A262B74EB"
+    },
+    {
+      "path": "reports/tables/phase17_prediction_audit.json",
+      "bytes": 3682,
+      "sha256": "D98D6AD3B3FA780410CF3A4BF76B9DF03722483F642E396CB2227EEFBF8C4F62"
+    },
+    {
+      "path": "submissions/submission_p16_locked_ensemble_v1.csv",
+      "bytes": 47329264,
+      "sha256": "19125DE77D0726A23A5E9E209C03960F53EC1E69D312D0A2DD32A0BA2A274865"
+    },
+    {
+      "path": "data/raw/测试集_X.csv",
+      "bytes": 168825396,
+      "sha256": "DCEFFBF68BBAB07A254BC6CAA4D8A1E33DE8DE9C15489D936C5D15020DBFA90F"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "phase": 16,
+  "test_data_used": false,
+  "source_tree_sha256": "591F5023B0521E80AC701FFE97A124538CE535F4BC2FDDF4F7331CB03DA4CCA0",
+  "artifacts": [
+    {
+      "path": "experiments/configs/phase16_finalization_D7793EDB6B58.yaml",
+      "bytes": 14911,
+      "sha256": "D7793EDB6B586BB4D7B2DBD87679415DE34256A06F40621FB3A9BA8E765DD572"
+    },
+    {
+      "path": "models/phase16_final/manifest.json",
+      "bytes": 14932,
+      "sha256": "39C0B594693AB59106937CB30A8079C8C35B621026116BFA586FADCA41A4BB59"
+    },
+    {
+      "path": "reports/tables/phase16_ensemble_grid.parquet",
+      "bytes": 16339,
+      "sha256": "2EF829BC9CEDE5057B63E1A69E0A38E9FF44BAAC47C8967DC018EEC12D32099C"
+    },
+    {
+      "path": "reports/tables/phase16_ensemble_grid.csv",
+      "bytes": 19622,
+      "sha256": "0AD5E2D09DC4F588F0CFF26D53A4DB42D28110E65A896DBFB58928B1E9BBB287"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "reports/tables/phase10_turnover_audit.json",
+      "bytes": 5887,
+      "sha256": "15CC8A9FAB1DF9992931381B61CFD4E7D448E14611FE89088BA2536940864093"
+    },
+    {
+      "path": "models/phase16_final/atr_2y_model.txt",
+      "bytes": 366053,
+      "sha256": "CA685C83003C3D1AE61F8DB7CAFDCBA95DFD9B23C83D37F1A0A3838ADD0C7C3B"
+    },
+    {
+      "path": "models/phase16_final/fold_2022/final_ensemble_oof.parquet",
+      "bytes": 5842711,
+      "sha256": "40DA02F39470F62D3A8BBCFFC90B85A7724394E14D30776F25322E4ABF43E251"
+    },
+    {
+      "path": "models/phase16_final/fold_2023/final_ensemble_oof.parquet",
+      "bytes": 5991340,
+      "sha256": "A1E93AD274A317C5BEE332FA73DB09E4C882B100B66E9C1E855B0F2E1596AE71"
+    },
+    {
+      "path": "models/phase16_final/fold_2024/final_ensemble_oof.parquet",
+      "bytes": 5587357,
+      "sha256": "BB7764A24D19FB0D83A8205C9ED2D4B3EECDCCACCE22C1805AD29D137C5F851A"
+    },
+    {
+      "path": "models/phase16_final/ranker_base_model.txt",
+      "bytes": 368685,
+      "sha256": "2266B109CDE1A14FD2EC070D27DA7FD10EFD54B833ADAAE9832AC9CE63FC86C3"
+    },
+    {
+      "path": "models/phase16_final/regression_lightgbm_model.txt",
+      "bytes": 335444,
+      "sha256": "6924485F44B7FD21CFD4EE36511582E9D583E0AEA063A818E9183021ADF204C6"
+    },
+    {
+      "path": "models/phase16_final/regression_ridge_model.npz",
+      "bytes": 5642,
+      "sha256": "C9DF833CC6F9D2BA47EC25414EC8518C15DE0541828672F4D17C834056B6B641"
+    }
+  ]
+}

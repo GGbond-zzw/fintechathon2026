@@ -1,0 +1,215 @@
+project:
+  name: fintechathon2026_task5
+  seed: 42
+
+paths:
+  root: D:/codex/fintechathon2026
+  train: D:/codex/fintechathon2026/data/raw/训练集.csv
+  test: D:/codex/fintechathon2026/data/raw/测试集_X.csv
+  interim: D:/codex/fintechathon2026/data/interim
+  processed: D:/codex/fintechathon2026/data/processed
+  cache: D:/codex/fintechathon2026/data/cache
+  models: D:/codex/fintechathon2026/models
+  experiments: D:/codex/fintechathon2026/experiments
+  submissions: D:/codex/fintechathon2026/submissions
+  reports: D:/codex/fintechathon2026/reports
+  logs: D:/codex/fintechathon2026/logs
+  official_evaluator: D:/codex/fintechathon2026/official/evaluate.py
+
+data:
+  label: y_ret_1d
+  id_cols: [ts_code, trade_date]
+  float_columns: [open, high, low, close, vol, amount]
+  test_required_columns:
+    - ts_code
+    - trade_date
+    - open
+    - high
+    - low
+    - close
+    - vol
+    - amount
+    - flag_limit_up
+    - flag_limit_down
+  warmup_days: 250
+  parquet_cache: true
+  float_dtype: float32
+  csv_chunksize: 250000
+  precision_sample_rows: 100000
+
+runtime:
+  log_level: INFO
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase0_test_summary.json
+  phase1_audit_output: D:/codex/fintechathon2026/reports/tables/phase1_data_audit.json
+
+label_audit:
+  absolute_tolerance: 1.0e-12
+  relative_tolerance: 1.0e-10
+  quantiles: [0.001, 0.01, 0.05, 0.25, 0.5, 0.75, 0.95, 0.99, 0.999]
+  extreme_abs_thresholds: [0.1, 0.2, 0.5]
+  mismatch_sample_rows: 100
+  output_json: D:/codex/fintechathon2026/reports/tables/phase2_label_audit.json
+  yearly_output_csv: D:/codex/fintechathon2026/reports/tables/phase2_label_by_year.csv
+  daily_output_parquet: D:/codex/fintechathon2026/reports/tables/phase2_label_by_date.parquet
+  mismatch_output_csv: D:/codex/fintechathon2026/reports/tables/phase2_alignment_mismatches.csv
+
+features:
+  return_windows: [1, 2, 3, 5, 10, 20, 40, 60, 120]
+  volatility_windows: [5, 10, 20, 60]
+  volume_windows: [5, 10, 20, 60]
+  position_windows: [5, 10, 20, 60, 120]
+  ma_pairs: [[5, 20], [10, 20], [20, 60], [40, 120]]
+  min_periods_policy: full_window
+  stocks_per_write_batch: 50
+  feature_workers: 4
+  parquet_compression: zstd
+  time_output: D:/codex/fintechathon2026/data/processed/features_v1_time.parquet
+  model_base_by_year_output: D:/codex/fintechathon2026/data/processed/features_v1_model_base_by_year
+  market_output: D:/codex/fintechathon2026/data/processed/features_v1_market.parquet
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase3_feature_audit.json
+  dictionary_output: D:/codex/fintechathon2026/reports/tables/phase3_feature_dictionary.csv
+  handcheck_output: D:/codex/fintechathon2026/reports/tables/phase3_hand_checks.csv
+
+test_features:
+  time_output: D:/codex/fintechathon2026/data/processed/features_v1_test_time.parquet
+  market_output: D:/codex/fintechathon2026/data/processed/features_v1_test_market.parquet
+  model_base_by_year_output: D:/codex/fintechathon2026/data/processed/features_v1_test_model_base_by_year
+  cross_sectional_by_year_output: D:/codex/fintechathon2026/data/processed/features_v1_test_cross_sectional_by_year
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase5_test_feature_audit.json
+  first_date_probe_features:
+    - ret_1
+    - ret_5
+    - ret_20
+    - close_ma_ratio_20
+    - ret_std_20
+    - position_20
+    - close_ma_5_20
+
+cross_sectional:
+  source_features:
+    - intraday_return
+    - overnight_gap
+    - high_low_range
+    - upper_shadow
+    - lower_shadow
+    - ret_1
+    - ret_2
+    - ret_3
+    - ret_5
+    - ret_10
+    - ret_20
+    - ret_60
+    - ret_120
+    - close_ma_ratio_5
+    - close_ma_ratio_20
+    - close_ma_ratio_60
+    - close_ma_ratio_120
+    - ret_std_5
+    - ret_std_20
+    - ret_std_60
+    - downside_rms_20
+    - upside_rms_20
+    - vol_ma_ratio_5
+    - vol_ma_ratio_20
+    - vol_ma_ratio_60
+    - amount_ma_ratio_20
+    - vol_cv_20
+    - amihud_mean_20
+    - corr_ret_vol_change_20
+    - position_20
+    - position_60
+    - position_120
+    - distance_to_high_20
+    - breakout_high_20
+    - close_ma_5_20
+    - close_ma_20_60
+  transforms: [percentile_rank, zscore]
+  zscore_ddof: 0
+  zero_variance_zscore: 0.0
+  min_group_size: 30
+  winsorize: false
+  output: D:/codex/fintechathon2026/data/processed/features_v1_cross_sectional_by_year
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase4_cross_sectional_audit.json
+
+cv:
+  type: expanding_window
+  label_horizon_trade_days: 1
+  purge_trade_days: 1
+  aggregation: equal_weight
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase6_cv_audit.json
+  calendar_output: D:/codex/fintechathon2026/reports/tables/phase6_cv_calendar.parquet
+  folds:
+    - {name: fold_2022, train_start: 20180102, train_end: 20211231, val_start: 20220101, val_end: 20221231}
+    - {name: fold_2023, train_start: 20180102, train_end: 20221231, val_start: 20230101, val_end: 20231231}
+    - {name: fold_2024, train_start: 20180102, train_end: 20231231, val_start: 20240101, val_end: 20241231}
+
+baseline:
+  model_view_output: D:/codex/fintechathon2026/data/processed/model_view_v1_by_year
+  output_dir: D:/codex/fintechathon2026/models/phase8_baselines
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase8_baseline_audit.json
+  batch_size: 100000
+  simple_factor:
+    feature: ret_20__rank
+    direction: 1.0
+  ridge:
+    feature_group: cross_zscore
+    alpha: 100.0
+  lightgbm:
+    feature_groups: [cross_rank, market]
+    num_boost_round: 100
+    params:
+      objective: regression
+      learning_rate: 0.05
+      num_leaves: 31
+      min_data_in_leaf: 1000
+      max_bin: 63
+      feature_fraction: 0.8
+      bagging_fraction: 0.8
+      bagging_freq: 1
+      seed: 42
+      feature_fraction_seed: 42
+      bagging_seed: 42
+      data_random_seed: 42
+      num_threads: 4
+      force_col_wise: true
+      deterministic: true
+      verbosity: -1
+  catboost:
+    enabled: false
+    reason: deferred_under_16gb_first_baseline_resource_boundary
+
+experiments:
+  registry: D:/codex/fintechathon2026/experiments/experiment_registry.csv
+  configs_dir: D:/codex/fintechathon2026/experiments/configs
+  manifests_dir: D:/codex/fintechathon2026/experiments/manifests
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase9_experiment_registry_audit.json
+  phase8_experiment_ids:
+    simple_factor: p08_simple_factor_v1
+    ridge: p08_ridge_v1
+    lightgbm: p08_lightgbm_v1
+
+turnover:
+  source_model: lightgbm
+  source_oof_dir: D:/codex/fintechathon2026/models/phase8_baselines
+  output_dir: D:/codex/fintechathon2026/models/phase10_turnover
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase10_turnover_audit.json
+  grid_output_parquet: D:/codex/fintechathon2026/reports/tables/phase10_turnover_grid.parquet
+  grid_output_csv: D:/codex/fintechathon2026/reports/tables/phase10_turnover_grid.csv
+  experiment_id: p10_lgb_turnover_v1
+  alphas: [1.0, 0.9, 0.8, 0.7, 0.6, 0.5]
+  hysteresis_exit_fractions: [0.10, 0.125, 0.15]
+  selection_metric: final_score
+  fold_aggregation: equal_weight
+  initialization: first_validation_observation
+  prediction_dtype: float32
+
+evaluator:
+  official_sha256: 72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2
+  constants_locked: true
+  parity_absolute_tolerance: 1.0e-12
+  audit_output: D:/codex/fintechathon2026/reports/tables/phase7_evaluator_parity.json
+  ic_min_samples: 30
+  portfolio_min_samples: 100
+  top_fraction_denominator: 10
+  annualization_days: 252
+  weights: {rank_ic: 0.4, annual_excess: 0.3, one_minus_turnover: 0.3}

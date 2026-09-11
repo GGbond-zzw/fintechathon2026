@@ -1,0 +1,268 @@
+{
+  "phase": 15,
+  "test_data_used": false,
+  "source_tree_sha256": "5E76AC53BB499A831AFBF99D002E1F0332FE4B816C6C42033DABAE02F8C788D8",
+  "feature_version": "model_view_v2_atr_rank",
+  "artifacts": [
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/manifest.json",
+      "bytes": 4339,
+      "sha256": "003E53AFEABCAF17B09384B8F15CBDA106D1A64E834E959D5B840598D78DC1E9"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2018/data.parquet",
+      "bytes": 102214129,
+      "sha256": "A3AA2BB87FB9A9BF41C0C4B0B1A41D611A75B0F5BF3B39727AE0353CA017F2EC"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2019/data.parquet",
+      "bytes": 124891025,
+      "sha256": "C0E276A322B052E81BCCF4E6B0E3643AB0674BB2F6157172542AB3341D3AD4AE"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2020/data.parquet",
+      "bytes": 130109859,
+      "sha256": "2F8486E9498A97288BB48EAF86705D4AE0134CD6AA75486A392388C828F39DA8"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2021/data.parquet",
+      "bytes": 148009168,
+      "sha256": "739482094777DE62006C7FEEB99051860BCD8621C39914AFC29162480AD9DC59"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2022/data.parquet",
+      "bytes": 153303450,
+      "sha256": "B90E84EB6ADDA0BC5ABDF4D80B3E037715C07D63A1EC38EB5E67BE23CE37649A"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2023/data.parquet",
+      "bytes": 146001227,
+      "sha256": "1029516CCE94D18340B70A161475ADB38EDD262A5A6A5C6CAE9B1D78FD5C6B00"
+    },
+    {
+      "path": "data/processed/model_view_v2_atr_rank_by_year/year=2024/data.parquet",
+      "bytes": 139524376,
+      "sha256": "BE01F94BB901A2228A926599DE1A44E4779903FD6C6948EA781DC3CA8A5BF3AB"
+    },
+    {
+      "path": "reports/tables/phase6_cv_audit.json",
+      "bytes": 3953,
+      "sha256": "9B399EA1ACBAC5D0EF6F8B3FA7A4BB1A267D32DBF2F75241D3C72590EA22551F"
+    },
+    {
+      "path": "reports/tables/phase6_cv_calendar.parquet",
+      "bytes": 11277,
+      "sha256": "DBDEDAAF81CC526D1B9E17049AB4F6D73472F23F8DB8DD89AC269FFFCB8D1B71"
+    },
+    {
+      "path": "reports/tables/phase14_feature_screening_audit.json",
+      "bytes": 5723,
+      "sha256": "DF97B4DBDB20C2079FE695C8BD24D3CBAF3198AD8CB7B35D551E0D592C46E659"
+    },
+    {
+      "path": "reports/tables/phase14_selected_features.json",
+      "bytes": 24107,
+      "sha256": "59DC8EF567825133B969749B753B34A625E16AAB0F4D6453B44A1901BCA43ED5"
+    },
+    {
+      "path": "reports/tables/phase12_lambdarank_audit.json",
+      "bytes": 15342,
+      "sha256": "0195C706F4BDF4C9CFF8E064B899A4D20FDAA5DE1E4A96C3EEAAEAB331DE95EA"
+    },
+    {
+      "path": "reports/tables/phase10_turnover_audit.json",
+      "bytes": 5887,
+      "sha256": "15CC8A9FAB1DF9992931381B61CFD4E7D448E14611FE89088BA2536940864093"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "experiments/configs/phase15_stability_16A86B038E9C.yaml",
+      "bytes": 13994,
+      "sha256": "16A86B038E9C03CB59D9B9928A910E48FADF0C93E31C0300BC990AF6A8192093"
+    },
+    {
+      "path": "reports/tables/phase15_window_comparison.csv",
+      "bytes": 1874,
+      "sha256": "52A7FD4653D2EE7717B13DDAE5102DDD6CDA408CD70F48970DCB093FCA1B68F0"
+    },
+    {
+      "path": "reports/tables/phase15_regime_metrics.csv",
+      "bytes": 2256,
+      "sha256": "81F99CC2FA0133464C7439CF4C3B867EA63AD62BCCD3C4541D11F87EADDFB1C3"
+    },
+    {
+      "path": "models/phase15_stability/manifest.json",
+      "bytes": 50499,
+      "sha256": "21753AFAAA7F0226B24E0F26D9B503ACA583B6E2C2AECE4E63E720045C0CEE64"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2022/lambdarank_model.txt",
+      "bytes": 370975,
+      "sha256": "4CF7DF97E754A5973E7B2DB36BACD06E417CF17D8FD5F113C82A1A914BAC1DA9"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2022/ranker_raw_oof.parquet",
+      "bytes": 8620183,
+      "sha256": "E7B87391FDC892CDD5C514533646AD4D51B471F62C1277C5E7BEF45252778749"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2022/ranker_turnover_oof.parquet",
+      "bytes": 5842186,
+      "sha256": "F2A857BFF9616865D623EB91549FF269504025D227DADC5AC493B1DCD1F1D2E9"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2023/lambdarank_model.txt",
+      "bytes": 371165,
+      "sha256": "F88F84EFE8462BF118B647393F9747FF2973B3A353003A744D8A15F458BDE883"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2023/ranker_raw_oof.parquet",
+      "bytes": 8900143,
+      "sha256": "8CF5E2FFAABB287FD861383871A7A7D88F39273C484948FF8799A12F0D6C81AF"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2023/ranker_turnover_oof.parquet",
+      "bytes": 5990117,
+      "sha256": "82DA186B97B8999B40D06D859BF66196C50CC02CB2B7E63E947952EBE5D69A99"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2024/lambdarank_model.txt",
+      "bytes": 370173,
+      "sha256": "A056CD9A2F9B20007C46817E103C69746DFDECDD717D47ADD8D6663ADBCD6B1E"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2024/ranker_raw_oof.parquet",
+      "bytes": 8575155,
+      "sha256": "38920F319672D98FA00BDAAF511B2F1D4A5CF962FB409FFB851E7AEC22022B52"
+    },
+    {
+      "path": "models/phase15_stability/full_expanding/fold_2024/ranker_turnover_oof.parquet",
+      "bytes": 5587357,
+      "sha256": "DD6A0A3D30321768ECE9727B44CC6956611BD445B15C958C701F852FBD771D46"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2022/fold_report.json",
+      "bytes": 758,
+      "sha256": "45A1729BF31D07BC9C5399A4D81D30F05E2172489F98D85B89BDC1084FDEAE7C"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2022/lambdarank_model.txt",
+      "bytes": 368821,
+      "sha256": "2636DAF42907493C610410F15DDA8418F842C6169A14DA7572E30ED50E66D5AF"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2022/ranker_raw_oof.parquet",
+      "bytes": 8602942,
+      "sha256": "274846E4495A1101E23117D13F10F5878DEFB11D63976F97AEF61A319C2B5D8A"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2022/ranker_turnover_oof.parquet",
+      "bytes": 5847458,
+      "sha256": "D23D7937FD25B2D11E37F9CF86CF5822484FB0EE0E5CA4931E5C2787083319C3"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2023/fold_report.json",
+      "bytes": 758,
+      "sha256": "16BBB65DD8117B0AB7417548BBD050C0DDF6DCB0B30723CAFF2D67366FC156E3"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2023/lambdarank_model.txt",
+      "bytes": 368456,
+      "sha256": "B9B6145AC703A5E92733FF8C2CE4F656564D61249997521F841060525A688578"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2023/ranker_raw_oof.parquet",
+      "bytes": 8888760,
+      "sha256": "3810DADD47065789C1BF2D6C04EB93409AED86A4AC005242666BF87A9F4B21CD"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2023/ranker_turnover_oof.parquet",
+      "bytes": 5992298,
+      "sha256": "0ACAE8285F04D5D8B4D3D781F2DD790629BEA01AAAEB7278B5149311B894CEF7"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2024/fold_report.json",
+      "bytes": 758,
+      "sha256": "A87DC5099BBA6CB25DB11C321CF46B26BAA872641E19B86424CAEB92FB9A0A80"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2024/lambdarank_model.txt",
+      "bytes": 368148,
+      "sha256": "6F7CF126C9AC4A633BB2D6CA08170BE47554892AC9676DE19719AE1119D73293"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2024/ranker_raw_oof.parquet",
+      "bytes": 8610016,
+      "sha256": "39DDE01AE7261C9A4535BCB013B7983D6C8C4F210540B359ADD45CB0CAAF1BB4"
+    },
+    {
+      "path": "models/phase15_stability/trailing_2y/fold_2024/ranker_turnover_oof.parquet",
+      "bytes": 5587355,
+      "sha256": "4800844D707E2431FB66066C5C099934570823C35F56B9F7994D197902C09774"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2022/fold_report.json",
+      "bytes": 916,
+      "sha256": "A3B0F09F3D92752312761B73532F91B1D368B8EF55B47B64DAC03FED3EBD9EDE"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2022/lambdarank_model.txt",
+      "bytes": 370975,
+      "sha256": "4CF7DF97E754A5973E7B2DB36BACD06E417CF17D8FD5F113C82A1A914BAC1DA9"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2022/ranker_raw_oof.parquet",
+      "bytes": 8620183,
+      "sha256": "E7B87391FDC892CDD5C514533646AD4D51B471F62C1277C5E7BEF45252778749"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2022/ranker_turnover_oof.parquet",
+      "bytes": 5842186,
+      "sha256": "F2A857BFF9616865D623EB91549FF269504025D227DADC5AC493B1DCD1F1D2E9"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2023/fold_report.json",
+      "bytes": 757,
+      "sha256": "1B8E2009D6A190F6E429955BCF82F02C503D645842B602008A0B3BFF4D014147"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2023/lambdarank_model.txt",
+      "bytes": 369069,
+      "sha256": "1D7726B0A4179C61652F4F34B3861497D943F81CF23333145E61BB4BB2DF508A"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2023/ranker_raw_oof.parquet",
+      "bytes": 8878941,
+      "sha256": "5A86418690B9E6900EE60333EF77EC9FE7CF9EC300011C3F38D8393E3750966E"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2023/ranker_turnover_oof.parquet",
+      "bytes": 5984980,
+      "sha256": "2FD1F339525BF48A84FDE9C544D288B56A64ED5389FA335017B54E8CF0BBD3F4"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2024/fold_report.json",
+      "bytes": 757,
+      "sha256": "0FC4BF0A9D2D7C4146F3F81428D2EB20329BE76C40FA83E416EC383F7E752CB9"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2024/lambdarank_model.txt",
+      "bytes": 368803,
+      "sha256": "57D5C27822B3833F44BA1C0ABDB2D0AC6BC83CFA006040D7C907C93F58801524"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2024/ranker_raw_oof.parquet",
+      "bytes": 8549450,
+      "sha256": "50F0B73A58D6EE44B366DBBD892D07B364635BEE8C9459609C14728A9A1151EB"
+    },
+    {
+      "path": "models/phase15_stability/trailing_4y/fold_2024/ranker_turnover_oof.parquet",
+      "bytes": 5587358,
+      "sha256": "5BC5200804EADA100F6CF35486D73C6A8ACA40F33E0CE6B1845C786FA5D51061"
+    }
+  ]
+}

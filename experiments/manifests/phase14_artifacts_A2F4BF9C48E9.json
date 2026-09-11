@@ -1,0 +1,99 @@
+{
+  "phase": 14,
+  "test_data_used": false,
+  "predictive_model_trained": false,
+  "source_tree_sha256": "7F866AB3CF2E1779849D2A13DEF58BC475004407C9B7BC9BA633A97521E500B7",
+  "feature_version": "advanced_features_v1",
+  "artifacts": [
+    {
+      "path": "data/raw/训练集.csv",
+      "bytes": 946832276,
+      "sha256": "E9D23E87F7E1F9439F28F7DD951D129EA49EAACDA5AD650DA8576A830A6DEAC9"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/manifest.json",
+      "bytes": 7739,
+      "sha256": "C294F0197E4B91765F85B66F0EF74874DAFEA2EC6FB45F69C5F4F2B8C38AF473"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2018/features.parquet",
+      "bytes": 122428571,
+      "sha256": "CEA9D01454171B7DD08C4FE4ED0CB9D0408C77FEFBDD9DD66F9563F9783BC5B8"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2019/features.parquet",
+      "bytes": 146464186,
+      "sha256": "6286F75C5899AD4C93DFF7EEA0122FEF61A9EE5D8F15804D5B804CB074879D0A"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2020/features.parquet",
+      "bytes": 151624303,
+      "sha256": "7D63D50B6EA7D3B3F067833B3357DFE4D84D0F0F2A186DB0F157B0241EA42160"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2021/features.parquet",
+      "bytes": 163205343,
+      "sha256": "324CB303A3D1E7268CBBB88B258246E91EFB643C412093AB8095A916F9033704"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2022/features.parquet",
+      "bytes": 173500673,
+      "sha256": "2E25E6C5BFAF9148931BF02D9FC17A1D81D017112741684E3D3FC2F342716714"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2023/features.parquet",
+      "bytes": 178585381,
+      "sha256": "58D5E5BAFAAF2C5D722C1119A61B226F28C6E04960E35D7D25B3AD6F6748A4B4"
+    },
+    {
+      "path": "data/processed/advanced_features_v1_train_by_year/year=2024/features.parquet",
+      "bytes": 185235529,
+      "sha256": "F4DE2772E9B0B3DB113483CF512A386063101F90135054D182B4994A8317AFE7"
+    },
+    {
+      "path": "experiments/configs/phase14_screening_D0632C6802E3.yaml",
+      "bytes": 12660,
+      "sha256": "D0632C6802E336DAB18A5E9CBB6382B213D5644624582AFDA2E2089357B14AAC"
+    },
+    {
+      "path": "reports/tables/phase14_feature_daily_metrics.parquet",
+      "bytes": 475357,
+      "sha256": "A685ED2CCA074D417C63358848CEC9A82E8365935F1D5268ED26F7D9BAB14C50"
+    },
+    {
+      "path": "reports/tables/phase14_feature_summary.csv",
+      "bytes": 32596,
+      "sha256": "C036C2C3A6A8D9441001447A542D06E7CC4947EA10ED40FE3154C03E261564FF"
+    },
+    {
+      "path": "reports/tables/phase14_feature_by_year.csv",
+      "bytes": 37797,
+      "sha256": "B17E12088667D3E6B030CC9FD8EFE26E8B5267257F14698B5D725FAF2AF1C47B"
+    },
+    {
+      "path": "reports/tables/phase14_feature_by_regime.csv",
+      "bytes": 44673,
+      "sha256": "5BDB67ED8D9929C7E1139712D633A091B6171FF945B606341D4886AE332B0D1D"
+    },
+    {
+      "path": "reports/tables/phase14_rank_correlation.csv",
+      "bytes": 53504,
+      "sha256": "C5B5255DA418837880CC799322F1E74B64F8B8CE60841B8B4AF533F19C0128EB"
+    },
+    {
+      "path": "reports/tables/phase14_family_ablation.csv",
+      "bytes": 32166,
+      "sha256": "83DDE30105C38EB6C31B5C8EA819C5C2C5015E4B68D5F437AE80ED1CCF517012"
+    },
+    {
+      "path": "reports/tables/phase14_selected_features.json",
+      "bytes": 24107,
+      "sha256": "59DC8EF567825133B969749B753B34A625E16AAB0F4D6453B44A1901BCA43ED5"
+    }
+  ]
+}

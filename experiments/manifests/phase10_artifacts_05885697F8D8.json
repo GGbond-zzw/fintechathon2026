@@ -1,0 +1,78 @@
+{
+  "phase": 10,
+  "test_data_used": false,
+  "source_tree_sha256": "572269D31886E335F18BD3A9F55F5A40F3AE998BC121F8CA689591DC758AE5A7",
+  "feature_version": "model_view_v1",
+  "artifacts": [
+    {
+      "path": "models/phase8_baselines/fold_2022/lightgbm_oof.parquet",
+      "bytes": 7714833,
+      "sha256": "3CF93FBC22DE676F371D3B0044C0812865B244CC373071F075D51100B8308DDF"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2023/lightgbm_oof.parquet",
+      "bytes": 8016730,
+      "sha256": "A8B9E5AE6606766BA8553543A5325401E5D0706AA941B6634D6A563564B9CC27"
+    },
+    {
+      "path": "models/phase8_baselines/fold_2024/lightgbm_oof.parquet",
+      "bytes": 7525746,
+      "sha256": "323E029EBC7BC00BD86A42C7A3B93387DBEFAD7899C75F7F5F4AC4BE113F19B4"
+    },
+    {
+      "path": "reports/tables/phase8_baseline_audit.json",
+      "bytes": 24546,
+      "sha256": "BDB753F4BE3D5AD7F56D7641A5209E1860794ED403010C5FE4FFF371EB66CA0B"
+    },
+    {
+      "path": "reports/tables/phase6_cv_audit.json",
+      "bytes": 3953,
+      "sha256": "9B399EA1ACBAC5D0EF6F8B3FA7A4BB1A267D32DBF2F75241D3C72590EA22551F"
+    },
+    {
+      "path": "data/processed/model_view_v1_by_year/manifest.json",
+      "bytes": 8087,
+      "sha256": "CF63C23452EABD75A0D350C573267F04BC10EDE94901F07BB415A9C0BAE8B685"
+    },
+    {
+      "path": "official/evaluate.py",
+      "bytes": 4638,
+      "sha256": "72DC59987E92BA8AE6B506E114DFE8591B5608C9BECCD0769D5D1F778F9189C2"
+    },
+    {
+      "path": "experiments/configs/phase10_turnover_DE62D02FD958.yaml",
+      "bytes": 7491,
+      "sha256": "DE62D02FD958C69F6269C743CC5A473BD126138D8B0A994E38D3D16F34783883"
+    },
+    {
+      "path": "models/phase10_turnover/manifest.json",
+      "bytes": 4356,
+      "sha256": "77BF9E215ACD8B0AA96036483EF02BAC894915BE43DD8739DCD1885E70BC3A1A"
+    },
+    {
+      "path": "reports/tables/phase10_turnover_grid.parquet",
+      "bytes": 14431,
+      "sha256": "5575050344D9028D67DB004EEE06A7F9E4894B73F3F9B2073E98EA86FDD4977D"
+    },
+    {
+      "path": "reports/tables/phase10_turnover_grid.csv",
+      "bytes": 15839,
+      "sha256": "CD51B4C2E9E65CC0A3A05D058B6FD01BF8362248A160594923604ACC3E8C5313"
+    },
+    {
+      "path": "models/phase10_turnover/fold_2022/lightgbm_turnover_oof.parquet",
+      "bytes": 5838522,
+      "sha256": "9DD246A4F3A76ECCE861FDB6969AD688E31C81A6564ABFB2837C23FC0E188F04"
+    },
+    {
+      "path": "models/phase10_turnover/fold_2023/lightgbm_turnover_oof.parquet",
+      "bytes": 5990487,
+      "sha256": "28722369154D5CEE4CA678413D40B3E4EF00941820277D4E380199B55FABC490"
+    },
+    {
+      "path": "models/phase10_turnover/fold_2024/lightgbm_turnover_oof.parquet",
+      "bytes": 5587356,
+      "sha256": "B199F6FE3F47B78A5A436EA1725E850DE7148FC19F7880A46647DCC494BBF8DA"
+    }
+  ]
+}
